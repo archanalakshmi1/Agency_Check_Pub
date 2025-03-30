@@ -1,3 +1,5 @@
+//This code was used to create the Admin user as an onetime task. 
+//Later user registration & pwd change facility need to be provided to support multiple users.
 import mysql from 'mysql2/promise';
 import bcrypt from 'bcrypt';
 
