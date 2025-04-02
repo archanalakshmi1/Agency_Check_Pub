@@ -9,7 +9,7 @@ const connection = await mysql.createConnection({
   password: 'mYsql@ROOT',
   database: 'agency_mgmt',
 });
-
+const password = "adminpassword"
 const hashedPassword = await bcrypt.hash(password, 10);
 
 await connection.execute(
